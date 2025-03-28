@@ -36,7 +36,7 @@ nginx['listen_https'] = false
 #       client_options: {
 #         identifier: "your-authentik-provider-client-id",  # <-- Replace with your Authentik provider client ID
 #         secret: "your-authentik-provider-client-secret",  # <-- Replace with your Authentik provider client secret
-#         redirect_uri: "https://your-authentik-fqdn/users/auth/openid_connect/callback"  # <-- Replace with your Authentik FQDN
+#         redirect_uri: "https://your-gitlab-fqdn/users/auth/openid_connect/callback"  # <-- Replace with your Gitlab FQDN
 #       }
 #     }
 #   }
